@@ -1,0 +1,149 @@
+
+
+  <!doctype html>
+  <html lang="en">
+
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- development version, includes helpful console warnings -->
+
+
+
+    <title> About Me </title>
+    <link rel="stylesheet" href="css/Index_css.css">
+
+      <container>
+
+      <header class="ol-xs-12 col-sm-10 col-md-6 col-lg-6">
+
+        About Me
+
+
+
+
+
+     </header>
+
+</head>
+
+
+    <body>
+
+
+         <hr>
+   <nav class="ol-xs-12 col-sm-10 col-md-6 col-lg-6 navbar-default">
+        <br>
+      <ul class="nav navbar-nav">
+        <li> <a href="index.html"> Home </a>
+          </li>
+        <li> <a href="projects.html"> Projects </a>
+          </li>
+        <li> <a href="Interests.html"> Interests </a>
+
+          </li>
+       </ul>
+        </nav>
+
+
+
+
+            <!-- <main class="col-xs-12 col-sm-10 col-md-6 col-lg-6">
+        <div class="row">
+
+</div> -->
+
+
+
+        <h1>
+          <!-- <div class="span4">    <img src="img/Federer.jpg" alt="Me in 2009" style="width: 400px; height: 400px;"> -->
+            <!-- https://en.wikipedia.org/wiki/Roger_Federer -->
+<div id="userApp">
+
+<img v-bind:src='user.picture.medium'  style="width: 400px; height: 400px;" />
+
+<button v-on:click="fetchUser()">Update</button>
+<br>
+Name: {{user.name}}
+<BR>
+Birthday : {{pretty_birthdate}}
+<br>
+Age: {{age}}
+<br>
+Address: {{user.location}}
+<br>
+Email: {{user.email}}
+
+</div>
+
+
+
+
+<br>
+
+           Me competing in England in 2009 during the Wimbledon Championships.</h1>
+            </div>
+                <br>
+                  <div class="bg-danger col-xl-12 col-lg-12 col-md-12 col-sm-6">
+
+
+                  <h2>
+                    Biography: I am a professional tennis player that enjoys competing on a global level. Also, I enjoy
+                    giving back to different charities around the world. I use my passion for sports in order to gain
+                    awareness to marginalized groups around the world and advocate for health and education.
+                    <br>
+                  </h2>
+  </div>
+</div>
+        <div class="bg-danger col-xl-12 col-lg-12 col-md-12 col-sm-6">
+        <H2>
+            Country of Origin: Australia
+            </H2>
+            <p>
+          I miss my time in my hometime of Sydney, but I enjoy my life in Tornoto. Canada is a great country full
+          of opportunities to meet and interact with a individuals from different backgrounds.
+            </p>
+            <br />
+        </div>
+
+        <div class="bg-danger col-lg-12 col-md-12 col-sm-6">
+        <!-- <H2>
+            Birthday: May 3, 1976
+            <p>
+            Age: 42
+                </p>
+            </H2> -->
+
+
+        </div>
+            <p>
+          <div class="bg-danger col-lg-12 col-md-12 col-sm-6"><h6>  Contact Information: <a href="mailto: john.smith@yahoo.com"> john.smith@yahoo.com </a></h6>
+                </p>
+
+          </container>
+
+            </main>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+
+          <script src="js/tasks.js"></script>
+    </body>
+
+    </html>
