@@ -1,7 +1,7 @@
 <?php
 
-$comment = new Comments($_POST);
+$workArr = new Work($_POST);
 
-$comment->create();
+$workArr->create();
 
-echo json_encode($comment);
+echo json_encode($workArr);

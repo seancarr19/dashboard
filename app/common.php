@@ -14,4 +14,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'
 
 require 'environment.default.php';
 /** MODELS **/
-require 'models/Comments.php';
+require 'models/Work.php';
+require 'models/Team.php';
